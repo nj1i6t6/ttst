@@ -847,7 +847,7 @@
                 const requestBody = {
                     contents: [{ parts: [{ text: prompt }] }],
                     generationConfig: {
-                        "maxOutputTokens": 500
+                        "maxOutputTokens": 1000
                     }
                 };
                 const response = await fetch(GEMINI_API_URL, {
